@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.idCard {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: solid;
+}
+.tableNumbers {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center;
+  justify-items: center; */
+  }
+
+.numbers {
+  padding: 5px;
+  border-style: solid;
+  width: 100px;
+  text-align: center;
+  
+}
+.oddNumber{
+  background-color: red;
+}
